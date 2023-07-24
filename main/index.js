@@ -26,9 +26,6 @@ const fs = require('fs');
   ## Contributor Guidelines
   * ${contributions}
   
-  ## Code of Conduct
-  * [Contributor Covenant Code of Conduct](https://www.contributor-covenant.org/version/2/0/code_of_conduct/code_of_conduct.md)
-  
   ## Test Instructions
   * ${test}
   
@@ -95,7 +92,7 @@ const fs = require('fs');
   .then((answers) => {
     const htmlPageContent = generateHTML(answers);
 
-    fs.writeFile(`${answers.project_title}-README.md`, htmlPageContent, (err) =>
+    fs.writeFile(`./README-Files/${answers.project_title}-README.md`, htmlPageContent, (err) =>
       err ? console.log(err) : console.log(`Successfully created ${answers.project_title}-README.md!`)
     );
   });
