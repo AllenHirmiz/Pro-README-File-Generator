@@ -34,7 +34,7 @@ The following image shows the web application's appearance and functionality:
 
 ## Command line Screenshot
 Screenshot of the command line that is needed to create README.md file. 
-![Screenshot of the command line that is needed to create README.md file](./Assets/images/command-line.png)
+![Screenshot of the command line that is needed to create README.md file](./assets/images/command-line.png)
 
 ## Command line file example video
 Click on the screenshot to direct you the youtube video of a demo for this project.
